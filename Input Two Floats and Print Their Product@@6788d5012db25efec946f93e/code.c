@@ -2,5 +2,5 @@
 float a,b;
 scanf("%f",a);
 scanf("%f",b);
-print(a*b)
+print(a*b);
     return 0;
