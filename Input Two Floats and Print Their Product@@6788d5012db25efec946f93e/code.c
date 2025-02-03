@@ -1,7 +1,7 @@
 #include <stdio.h>
 float a,b{
-scanf("%f",a);
-scanf("%f",b);
-print(a*b);
-    return 0;
+    scanf("%f",a);
+    scanf("%f",b);
+    float c=a*b;
+    printf("%f",c);
 }
