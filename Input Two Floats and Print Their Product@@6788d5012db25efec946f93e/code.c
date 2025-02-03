@@ -5,4 +5,5 @@ int main{
     scanf("%f",&b);
     c=a*b;
     printf("Product: %2.f\n",c);
+    return 0;
 }
