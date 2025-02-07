@@ -3,27 +3,27 @@ int main(){
     int a;
     scanf("%d",&a);
     if(a==1){
-        printf("Monday");
+        printf("Monday\n");
     }
     if(a==2){
-        printf("Tuesday");
+        printf("Tuesday\n");
     }
     if(a==3){
-        printf("Wednesday");
+        printf("Wednesday\n");
     }
     if(a==4){
-        printf("Thursday");
+        printf("Thursday\n");
     }
     if(a==5){
-        printf("Friday");
+        printf("Friday\n");
     }
     if(a==6){
-        printf("Saturday");
+        printf("Saturday\n");
     }
     if(a==7){
-        printf("Sunday");
+        printf("Sunday\n");
     }
     else{
-        printf("Invalid");
+        printf("Invalid\n");
     }
 }
