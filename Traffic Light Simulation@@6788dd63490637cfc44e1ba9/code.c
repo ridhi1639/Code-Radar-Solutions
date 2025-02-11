@@ -5,10 +5,10 @@ int main(){
     if(a == 'R'){
         printf("Stop\n");
     }
-    else if(a =='G'){
+    if(a =='G'){
         printf("Go\n");
     }
-    else if(a =='Y'){
+    if(a =='Y'){
         printf("Slow Down\n");
     }
     else{
