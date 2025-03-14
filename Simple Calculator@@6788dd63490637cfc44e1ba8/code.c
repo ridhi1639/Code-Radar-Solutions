@@ -8,7 +8,7 @@ int main(){
     else if (c == '-') printf("%d", a - b);
     else if (c == '/') {
         if (b != 0) printf("%d", a / b);
-        else printf("Division by zero is not allowed");
+        else printf("error");
     }
     else if (c == '*') printf("%d", a * b);
     else printf("Invalid operator\n");
