@@ -1,11 +1,9 @@
 #include<stdio.h>
 int main(){
-    int n,a;
+    int n;
     scanf("%d",&n);
-    a=0;
+    int a=0;
     for(int i=1;i<=n;i++){
-       
-        printf("%d",a);
-         a=a+i;
+        a=a+i;
     }
-}
+    printf("%d",a);}
