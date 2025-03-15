@@ -10,4 +10,5 @@ int main(){
     if(check=1) printf("Prime");
     else printf("Not Prime");
     }
+}
     
