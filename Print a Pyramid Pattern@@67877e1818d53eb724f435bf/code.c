@@ -14,16 +14,14 @@ int main() {
             printf(" ");
         }
 
-        // Print stars using an if-else
+      
         for (j = 1; j <= (2 * i - 1); j++) {
-            if (j % 2 == 0) {
-                printf(" "); // Optional: Add space between stars
-            } else {
+            
+            } if {
                 printf("*");
             }
         }
 
-        // Move to the next line
         printf("\n");
     }
 
