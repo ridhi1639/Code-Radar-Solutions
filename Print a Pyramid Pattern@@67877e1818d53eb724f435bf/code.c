@@ -1,27 +1,24 @@
-// Your code here...
 #include<stdio.h>
 
 int main() {
-    int rows, i, j, space;
+    int rows, i, j;
 
-    // Number of rows for the pyramid
-    
+    // Input the number of rows for the pyramid
+
     scanf("%d", &rows);
 
     for (i = 1; i <= rows; i++) {
-        // Print leading spaces
-        for (space = 1; space <= rows - i; space++) {
+        // Print spaces for alignment
+        for (j = 1; j <= rows - i; j++) {
             printf(" ");
         }
 
-      
+        // Print stars to form the pyramid
         for (j = 1; j <= (2 * i - 1); j++) {
-            
-            } if (j!%2!=0){
-                printf("*");
-            }
+            printf("*");
         }
 
+        // Move to the next line
         printf("\n");
     }
 
