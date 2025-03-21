@@ -7,6 +7,6 @@ int main(){
             if(j%2==0) printf("%d",0);
             else printf("%d",1);
         }
-        printf("\n")
+        printf("\n");
     }
 }
