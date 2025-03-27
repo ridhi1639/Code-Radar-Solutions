@@ -1,5 +1,5 @@
 #include<stdio.h>
-void isprime(n){
+int isprime(n){
     for(int j=1;j<=n;j++){
         if(n%j==0) printf("1");
         else printf("0");
