@@ -9,8 +9,8 @@ bool isPrimeDigit(int digit) {
 // Function to get the next prime digit
 int nextPrimeDigit(int digit) {
     do {
-        digit = (digit + 1) % 10; // Increment and wrap around if needed
-    } while (!isPrimeDigit(digit)); // Continue until it's a prime digit
+        digit = (digit + 1) % 10; // Increment and wrap around
+    } while (!isPrimeDigit(digit)); // Continue until prime digit is found
     return digit;
 }
 
@@ -19,11 +19,10 @@ int incrementToNextPrime(int n) {
     int result = 0, place = 1;
 
     while (n > 0) {
-        int digit = n % 10;        // Extract the last digit
-        int primeDigit = nextPrimeDigit(digit); // Increment to prime digit
-        result = result + primeDigit * place;   // Form the new number
-        place *= 10;             // Update the place value (units, tens, etc.)
-        n /= 10;                 // Remove the last digit
+        int digit = n % 10;
+        result += nextPrimeDigit(digit) * place;
+        place *= 10;
+        n /= 10;
     }
 
     return result;
@@ -33,14 +32,14 @@ int main() {
     int n;
 
     // Input the number
-
+    printf("Enter an integer N: ");
     scanf("%d", &n);
 
     // Process the number
     int result = incrementToNextPrime(n);
 
     // Output the result
-    printf(" %d\n", result);
+    printf("Resulting number: %d\n", result);
 
     return 0;
 }
