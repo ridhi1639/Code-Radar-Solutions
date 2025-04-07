@@ -18,6 +18,7 @@ int main(){
         if(smin>arr[i] && arr[i]!=min){
             smin=arr[i];
         }
+        else{ printf("-1");}
     }
     printf("%d",smin);
 }
