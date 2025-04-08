@@ -1,4 +1,4 @@
-// Your code here...
+
 #include<stdio.h>
 int main(){
     int n;
@@ -10,9 +10,10 @@ int main(){
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            if(arr[i]<arr[j+1]){
+            if(arr[i]<=arr[j+1]){
                 a=1;
             }
+            else a=0;
         }
     }
     if(a=1) printf("Sorted");
