@@ -6,7 +6,7 @@ int main(){
     int a=0;
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
@@ -18,4 +18,5 @@ int main(){
     }
     if(a=1) printf("Sorted");
     else printf("Not Sorted");
+    return 0;
 }
