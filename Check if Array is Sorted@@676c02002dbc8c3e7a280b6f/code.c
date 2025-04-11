@@ -17,6 +17,6 @@ int main(){
         }
     }
     if(a==1) printf("Sorted");
-    else  printf("Not Sorted");
+    else id(a==0) printf("Not Sorted");
     return 0;
 }
